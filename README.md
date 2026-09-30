@@ -11,10 +11,13 @@ Paste this snippet right before the closing `</body>` tag on any website:
 ```html
 <!-- OmniDesk Autonomous Voice Receptionist -->
 <script
-  src="https://omni-desk-rho.vercel.app/widget.js"
-  data-agent="agent_6e8ae0f0f2a24f8e88bf8c6f74e7c794"
+  src="https://cdn.jsdelivr.net/npm/omnidesk-voice@0.1.17/dist/widget.global.global.js"
+  onerror="this.onerror=null;this.src='https://omni-desk-rho.vercel.app/widget.js';"
+  data-host="https://omni-desk-rho.vercel.app"
+  data-business-id="biz_demo_dental"
+  data-agent="agent_118183fec8b04d99ac3702e5327ef544"
   data-position="bottom-right"
-  data-theme="dark"
+  data-theme="light"
   data-accent="#18181b"
   data-label="Talk to Receptionist"
   defer>
